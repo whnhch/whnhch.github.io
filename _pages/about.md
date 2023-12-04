@@ -7,6 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
+#### Name Prnounciation
+You can pronounce my name as [ha-ni].
+My korean name is 조환희.
+
 ### About Me
 --- 
 I am interested in database management and nautral language processing.
