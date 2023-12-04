@@ -8,21 +8,24 @@ redirect_from:
   - /about.html
 ---
 ### About Me
+--- 
+I am interested in database management and nautral language processing.
+Now, I am a Computer Science PhD stduent at University of Utah working with Prof. Anna Fariha.
 
 ### Education
-======
+--- 
 * Ph.D in Computer Science, University of Utah, 2023 - Present
 * M.S. in Computer Science, Hanyang University, Seoul, South Korea, 2023
 * B.S. in Computer Science, Hanyang University, Seoul, South Korea, 2021
 
 ### Publications
-======
+--- 
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 ### Work experience
-======
+--- 
 * Summer 2015: Research Assistant
   * Github University
   * Duties included: Tagging issues
@@ -34,7 +37,7 @@ redirect_from:
   * Supervisor: Professor Hub
   
 ### Skills
-======
+--- 
 * Python
 * Java
 * C/C++
