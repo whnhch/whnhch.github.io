@@ -28,18 +28,6 @@ Now, I am a Computer Science PhD stduent at University of Utah working with Prof
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-### Work experience
---- 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
 ### Skills
 --- 
 * Python
