@@ -8,5 +8,5 @@ venue: 'Sensors'
 paperurl: 'https://www.mdpi.com/1424-8220/22/22/8761'
 citation: 'Cho W, Choi Y. &quot;LMGAN: Linguistically Informed Semi-Supervised GAN with Multiple Generators&quot; <i>Sensors</i>. 2022.'
 ---
-[Download paper here](https://www.mdpi.com/1424-8220/22/22/8761)
+url: https://www.mdpi.com/1424-8220/22/22/8761
 
