@@ -1,14 +1,48 @@
 /* assets/css/custom.css */
 
 /* Import the Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* Apply font styles */
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+} */ */
+
+.publication-entry {
+  margin-bottom: 15px;       /* Reduces space between different publications */
+}
+
+/* Styling for authors */
+.authors {
+  font-style: italic;
+  color: #555;
+  margin: 0;                 /* Removes margin */
+  padding: 0;                /* Removes padding */
+}
+
+/* Styling for title */
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 2px 0;             /* Reduces space above and below title */
+}
+
+/* Styling for publication venue */
+.publication-venue {
+  display: inline;           /* Keeps publication name inline */
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+  margin-left: 5px;          /* Adds slight space to the left of the venue name */
+}
+
+/* Styling for tags */
+.tags {
+  font-size: 14px;
+  margin-left: 10px;         /* Space between title and tags */
 }
