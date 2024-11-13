@@ -14,22 +14,11 @@ My korean name is 조환희.
 ### About Me
 --- 
 I am interested in database management and nautral language processing.
-Now, I am a Computer Science PhD stduent at University of Utah working with Prof. Anna Fariha.
+Now, I am a Computer Science PhD student at University of Utah working with Prof. Anna Fariha.
 
-### Education
---- 
-* Ph.D in Computer Science, University of Utah, 2023 - Present
-* M.S. in Computer Science, Hanyang University, Seoul, South Korea, 2023
-* B.S. in Computer Science, Hanyang University, Seoul, South Korea, 2021
-
-### Publications
---- 
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-### Skills
---- 
-* Python
-* Java
-* C/C++
+<section>
+  <h2>Latest News</h2>
+  <div class="news-wrapper">
+    <div class="news-item">New publication: <a href="link-to-paper">Title of Paper</a></div>
+  </div>
+</section>
