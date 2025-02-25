@@ -3,26 +3,26 @@
     - title: "Simple Data Transformations for Mitigating the Syntactic Similarity to Improve Sentence Embeddings at Supervised Contrastive Learning."
       authors: "Minji Kim, Whanhee Cho, Soohyeong Kim, Yong Suk Choi"
       venue: "Adv. Intell. Syst. 6(8)"
-      link: "https://dblp.org/rec/journals/ais/KimCKC24.html"
+      link: "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/aisy.202300717"
     - title: "UTOPIA: Automatic Pivot Table Assistant."
       authors: "Whanhee Cho, Anna Fariha"
       venue: "Proc. VLDB Endow. 17(12)"
-      link: "https://dblp.org/rec/journals/pvldb/ChoF24.html"
+      link: "https://dl.acm.org/doi/pdf/10.14778/3685800.3685861"
     - title: "ACCIO: Table Understanding Enhanced via Contrastive Learning with Aggregations."
       authors: "Whanhee Cho"
       venue: "CoRR abs/2411.04443"
-      link: "https://dblp.org/rec/journals/corr/abs-2411-04443.html"
+      link: "https://arxiv.org/pdf/2411.04443"
 
 - year: 2023
   publications:
     - title: "Bidirectional Masked Self-attention and N-gram Span Attention for Constituency Parsing."
       authors: "Soohyeong Kim, Whanhee Cho, Minji Kim, Yong Suk Choi"
       venue: "EMNLP (Findings)"
-      link: "https://dblp.org/rec/conf/emnlp/KimCKC23.html"
+      link: "https://aclanthology.org/2023.findings-emnlp.25.pdf"
 
 - year: 2022
   publications:
     - title: "LMGAN: Linguistically Informed Semi-Supervised GAN with Multiple Generators."
       authors: "Whanhee Cho, Yongsuk Choi"
       venue: "Sensors 22(22)"
-      link: "https://dblp.org/rec/journals/sensors/ChoC22.html"
+      link: "https://www.mdpi.com/1424-8220/22/22/8761"
