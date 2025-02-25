@@ -28,7 +28,7 @@ Now, I am a Computer Science PhD student at University of Utah working with Prof
 ### Publications
 
 {% for year_data in site.data.publications %}
-  #### {{ year_data.year }}
+  <strong>{{ year_data.year }}<strong>
   <ul>
   {% for pub in year_data.publications %}
     <li>
