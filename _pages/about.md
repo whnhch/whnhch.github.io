@@ -22,3 +22,20 @@ Now, I am a Computer Science PhD student at University of Utah working with Prof
     <div class="news-item">New publication: <a href="link-to-paper">Title of Paper</a></div>
   </div>
 </section> -->
+
+---
+
+### Publications
+
+{% for year_data in site.data.publications %}
+  #### {{ year_data.year }}
+  <ul>
+  {% for pub in year_data.publications %}
+    <li>
+      {{ pub.title }}<br/>
+      <em>{{ pub.authors }}</em>, <em>{{ pub.venue }}</em>. 
+      <a href="{{ pub.link }}" target="_blank">[Link]</a>
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}
