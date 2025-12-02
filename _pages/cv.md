@@ -8,4 +8,7 @@ description: This is a description of the page. You can modify it in '_pages/cv.
 toc:
   sidebar: left
 ---
-<meta http-equiv="refresh" content="0; url=/assets/pdf/cv.pdf">
+
+<script type="text/javascript">
+  window.location.href = "/assets/pdf/cv.pdf";
+</script>
