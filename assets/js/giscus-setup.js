@@ -5,11 +5,11 @@ function determineGiscusTheme() {
       document.documentElement.getAttribute("data-theme") ||
       "system";
 
-    if (theme === "dark") return "";
-    if (theme === "light") return "";
+    if (theme === "dark") return "dark";
+    if (theme === "light") return "light";
 
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    return prefersDark ? "" : "";
+    return prefersDark ? "dark" : "light";
   
 }
 
@@ -20,15 +20,15 @@ function determineGiscusTheme() {
     src: "https://giscus.app/client.js",
     "data-repo": "whnhch/whnhch.github.io",
     "data-repo-id": "",
-    "data-category": "",
+    "data-category": "Comments",
     "data-category-id": "",
-    "data-mapping": "",
-    "data-strict": "",
-    "data-reactions-enabled": "",
-    "data-emit-metadata": "",
-    "data-input-position": "",
+    "data-mapping": "title",
+    "data-strict": "1",
+    "data-reactions-enabled": "1",
+    "data-emit-metadata": "0",
+    "data-input-position": "bottom",
     "data-theme": giscusTheme,
-    "data-lang": "",
+    "data-lang": "en",
     crossorigin: "anonymous",
     async: true,
   };
