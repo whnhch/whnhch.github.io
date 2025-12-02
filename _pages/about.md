@@ -6,8 +6,8 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: left
-  image: prof_pic.jpg
-  image_width: 150px
+  image: vldb_2024.png
+  image_width: 50px
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Salt Lake City, UT </p>
