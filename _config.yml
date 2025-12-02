@@ -144,14 +144,24 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+<<<<<<< HEAD
+=======
+  books:
+    output: true
+>>>>>>> parent of e3c46f3 (remove stuffs)
   news:
     defaults:
       layout: post
     output: true
+<<<<<<< HEAD
   # books:
     # output: true
   # projects:
     # output: true
+=======
+  projects:
+    output: true
+>>>>>>> parent of e3c46f3 (remove stuffs)
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
