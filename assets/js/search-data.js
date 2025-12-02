@@ -23,16 +23,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+        },{id: "news-our-paper-got-accepted-to-sigmod-2026",
+          title: 'Our paper got accepted to SIGMOD 2026!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-attending-neurips-2025-workshop-in-san-diego",
+          title: 'Attending NeurIPS 2025 Workshop in San Diego',
           description: "",
           section: "News",},{
         id: 'social-cv',
