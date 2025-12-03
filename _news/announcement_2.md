@@ -6,7 +6,7 @@ inline: true
 related_posts: false
 ---
 
-Our paper got accepted to SIGMOD 2026! 
+[Our paper](https://arxiv.org/abs/2507.06171) got accepted to SIGMOD 2026! 
 
 <!-- ---
 
