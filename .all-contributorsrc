@@ -1,6 +1,6 @@
 {
   "files": ["README.md"],
-  "imageSize": 100,
+  "imageSize": 50,
   "commit": false,
   "contributorsPerLine": 7,
   "projectName": "al-folio",
