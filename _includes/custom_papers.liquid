@@ -8,6 +8,44 @@
   --other-color: #9f9f9fff;
 }
 
+/* Remove normal bullets */
+.publications {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.publications li {
+  position: relative;
+  padding-left: 22px; /* space for arrow */
+  margin-bottom: 20px;
+}
+
+/* Fancy arrow bullet */
+.publications li::before {
+  content: "➤";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 1em;
+  color: #555;
+}
+
+.paper-title {
+  font-weight: 600;
+  font-size: 1.05em;
+  margin-bottom: 4px;
+}
+
+.paper-authors {
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.paper-meta {
+  font-size: 0.9em;
+}
+
 .pub-tag {
   padding: 2px 6px;
   border-radius: 12px;
@@ -18,53 +56,61 @@
 }
 </style>
 
-<div class="publications">
+<ul class="publications">
 
-  <div class="paper">
+  <li>
     <div class="paper-title">
       Data-Semantics-Aware Recommendation of Diverse Pivot Tables
     </div>
-    <div class="paper-meta">
+    <div class="paper-authors">
       <strong>Whanhee Cho</strong>, Anna Fariha
+    </div>
+    <div class="paper-meta">
       <span class="pub-tag" style="background-color: var(--sigmod-color)">SIGMOD 2026</span>
       <a href="https://arxiv.org/pdf/2507.06171">📄</a>
       <a href="https://github.com/whnhch/SAGE">💻</a>
     </div>
-  </div>
+  </li>
 
-  <div class="paper">
+  <li>
     <div class="paper-title">
       UTOPIA: Automatic Pivot Table Assistant
     </div>
-    <div class="paper-meta">
+    <div class="paper-authors">
       <strong>Whanhee Cho</strong>, Anna Fariha
+    </div>
+    <div class="paper-meta">
       <span class="pub-tag" style="background-color: var(--vldb-color)">VLDB 2024</span>
-      <a href="https://dl.acm.org/doi/pdf/10.14778/3685800.3685861?casa_token=Cqd2dwrRpTgAAAAA:AAeCJJoVOR5XL5eT1N08kjgOlWnBRylzDixtR9Pmo66XFC51fUTNxp8_0s_9gATdsaBAdH3JU0HC9A">📄</a>
+      <a href="https://dl.acm.org/doi/pdf/10.14778/3685800.3685861">📄</a>
       <a href="https://github.com/whnhch/UTOPIA-Automatic-Pivot-Table-Assistant">💻</a>
     </div>
-  </div>
+  </li>
 
-  <div class="paper">
+  <li>
     <div class="paper-title">
       Simple Data Transformations for Mitigating the Syntactic Similarity to Improve Sentence Embeddings at Supervised Contrastive Learning
     </div>
-    <div class="paper-meta">
+    <div class="paper-authors">
       Minji Kim, <strong>Whanhee Cho</strong>, Soohyeong Kim, Yong Suk Choi
+    </div>
+    <div class="paper-meta">
       <span class="pub-tag" style="background-color: var(--other-color)">VLDB 2024</span>
-      <a href="https://dl.acm.org/doi/pdf/10.14778/3685800.3685861?casa_token=Cqd2dwrRpTgAAAAA:AAeCJJoVOR5XL5eT1N08kjgOlWnBRylzDixtR9Pmo66XFC51fUTNxp8_0s_9gATdsaBAdH3JU0HC9A">📄</a>
+      <a href="https://dl.acm.org/doi/pdf/10.14778/3685800.3685861">📄</a>
       <a href="https://github.com/whnhch/Break-the-Similarity">💻</a>
     </div>
-  </div>
+  </li>
 
-  <div class="paper">
+  <li>
     <div class="paper-title">
       Bidirectional Masked Self-attention and N-gram Span Attention for Constituency Parsing
     </div>
-    <div class="paper-meta">
+    <div class="paper-authors">
       Soohyeong Kim, <strong>Whanhee Cho</strong>, Minji Kim, Yong Suk Choi
+    </div>
+    <div class="paper-meta">
       <span class="pub-tag" style="background-color: var(--emnlp-color)">EMNLP 2023</span>
       <a href="https://aclanthology.org/2023.findings-emnlp.25.pdf">📄</a>
     </div>
-  </div>
+  </li>
 
-</div>
+</ul>
