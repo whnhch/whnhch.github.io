@@ -22,6 +22,9 @@ ninja.data = [{
           section: "News",},{id: "news-attending-neurips-2025-workshop-in-san-diego",
           title: 'Attending NeurIPS 2025 Workshop in San Diego',
           description: "",
+          section: "News",},{id: "news-sage-demo-paper-got-accepted-to-sigmod-2026-demo",
+          title: 'SAGE Demo paper got accepted to SIGMOD 2026 Demo!',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
