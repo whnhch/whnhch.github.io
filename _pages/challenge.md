@@ -15,9 +15,7 @@ I am building my expertise in Databases, NLP, and related application practice, 
 <style>
 .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(45px, 1fr)); gap: 10px; margin-top: 15px; margin-bottom: 30px; }
 .grid-item { aspect-ratio: 1; border-radius: 8px; background-color: var(--global-bg-color, #f1f3f5); border: 1px solid var(--global-divider-color, #dee2e6); display: flex; align-items: center; justify-content: center; font-size: 0.9em; text-decoration: none !important; color: var(--global-text-color) !important; transition: all 0.2s; font-weight: bold; }
-.grid-item.db { background-color: #ffe8cc; border-color: #ffa94d; }
-.grid-item.nlp { background-color: #d0ebff; border-color: #74c0fc; }
-.grid-item.cloud { background-color: #d3f9d8; border-color: #8ce99a; }
+.grid-item.progress { background: linear-gradient(135deg, #ffe8cc 0%, #d0ebff 50%, #d3f9d8 100%); border-color: #999; }
 .grid-item.opacity-20 { opacity: 0.2; }
 .grid-item.opacity-60 { opacity: 0.6; }
 .grid-item.opacity-100 { opacity: 1; }
@@ -28,26 +26,21 @@ I am building my expertise in Databases, NLP, and related application practice, 
 {% assign db_count = site.challenge_db | size %}
 {% assign nlp_count = site.challenge_nlp | size %}
 {% assign cloud_count = site.challenge_cloud | size %}
-{% assign db_opacity = db_count | times: 40 | minus: 20 | atmost: 100 | atleast: 20 %}
-{% assign nlp_opacity = nlp_count | times: 40 | minus: 20 | atmost: 100 | atleast: 20 %}
-{% assign cloud_opacity = cloud_count | times: 40 | minus: 20 | atmost: 100 | atleast: 20 %}
+{% assign total_count = db_count | plus: nlp_count | plus: cloud_count %}
+{% assign opacity_class = "opacity-20" %}
 
-    {% if db_count > 0 %}
-    <a href="/challenge/db/" class="grid-item db opacity-{{ db_opacity }}" title="DB Papers: {{ db_count }} post(s)">1</a>
-    {% else %}
-    <div class="grid-item">1</div>
+    {% if total_count >= 3 %}
+        {% assign opacity_class = "opacity-100" %}
+    {% elsif total_count == 2 %}
+        {% assign opacity_class = "opacity-60" %}
+    {% elsif total_count == 1 %}
+        {% assign opacity_class = "opacity-20" %}
     {% endif %}
 
-    {% if nlp_count > 0 %}
-    <a href="/challenge/nlp/" class="grid-item nlp opacity-{{ nlp_opacity }}" title="NLP Papers: {{ nlp_count }} post(s)">2</a>
+    {% if total_count > 0 %}
+    <a href="/challenge/" class="grid-item progress {{ opacity_class }}" title="Progress: {{ total_count }} post(s) (DB: {{ db_count }}, NLP: {{ nlp_count }}, Practice: {{ cloud_count }})">1</a>
     {% else %}
-    <div class="grid-item">2</div>
-    {% endif %}
-
-    {% if cloud_count > 0 %}
-    <a href="/challenge/cloud/" class="grid-item cloud opacity-{{ cloud_opacity }}" title="Application Practice: {{ cloud_count }} post(s)">3</a>
-    {% else %}
-    <div class="grid-item">3</div>
+    <div class="grid-item" title="Progress: 0 posts">1</div>
     {% endif %}
 
     <div class="grid-item">4</div>
