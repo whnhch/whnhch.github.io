@@ -105,6 +105,10 @@ I am building my expertise in Databases, NLP, and related application practice, 
     font-weight: 700;
 }
 
+html[data-theme="dark"] .challenge-calendar__date {
+    color: #000;
+}
+
 .challenge-calendar__count {
     min-width: 22px;
     height: 22px;
@@ -336,7 +340,7 @@ I am building my expertise in Databases, NLP, and related application practice, 
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="card"><div class="card-body">
-            <h5 class="card-title">&lt;/&gt; Application Practice</h5>
+            <h5 class="card-title">{% include repo_code_badge.liquid %} Application Practice</h5>
             <a href="/challenge/cloud/" class="btn btn-sm z-depth-0" role="button">Go to Application Practice Logs</a>
         </div></div>
     </div>
