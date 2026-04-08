@@ -25,7 +25,7 @@ nav: false
 
 {% if site.challenge_db.size == 0 %}
 <p style="text-align: center; color: var(--global-text-color-light); padding: 30px;">
-  📭 No posts yet. Start your DB challenge! 🚀
+  No posts yet. 
 </p>
 {% endif %}
 </div>

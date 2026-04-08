@@ -66,13 +66,13 @@ I am building my expertise in Databases, NLP, and related application practice, 
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="card"><div class="card-body">
-            <h5 class="card-title">🧠 NLP Papers</h5>
+            <h5 class="card-title">📑 NLP Papers</h5>
             <a href="/challenge/nlp/" class="btn btn-sm z-depth-0" role="button">Go to NLP Logs</a>
         </div></div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="card"><div class="card-body">
-            <h5 class="card-title">☁️ Application Practice</h5>
+            <h5 class="card-title">`</>` Application Practice</h5>
             <a href="/challenge/cloud/" class="btn btn-sm z-depth-0" role="button">Go to Application Practice Logs</a>
         </div></div>
     </div>

@@ -25,7 +25,7 @@ nav: false
 
 {% if site.challenge_cloud.size == 0 %}
 <p style="text-align: center; color: var(--global-text-color-light); padding: 30px;">
-  📭 No posts yet. Start your Practice challenge! 🚀
+  No posts yet. 
 </p>
 {% endif %}
 </div>

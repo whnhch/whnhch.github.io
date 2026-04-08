@@ -5,7 +5,7 @@ title: NLP Challenge Logs
 nav: false
 ---
 
-## 🧠 NLP Papers & Notes
+## 📑 NLP Papers & Notes
 
 <div class="post-list">
 {% for post in site.challenge_nlp %}
