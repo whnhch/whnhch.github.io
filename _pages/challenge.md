@@ -35,19 +35,19 @@ I am building my expertise in Databases, NLP, and related application practice, 
     {% if db_count > 0 %}
     <a href="/challenge/db/" class="grid-item db opacity-{{ db_opacity }}" title="DB Papers: {{ db_count }} post(s)">1</a>
     {% else %}
-    <div class="grid-item db opacity-20">1</div>
+    <div class="grid-item">1</div>
     {% endif %}
 
     {% if nlp_count > 0 %}
     <a href="/challenge/nlp/" class="grid-item nlp opacity-{{ nlp_opacity }}" title="NLP Papers: {{ nlp_count }} post(s)">2</a>
     {% else %}
-    <div class="grid-item nlp opacity-20">2</div>
+    <div class="grid-item">2</div>
     {% endif %}
 
     {% if cloud_count > 0 %}
     <a href="/challenge/cloud/" class="grid-item cloud opacity-{{ cloud_opacity }}" title="Application Practice: {{ cloud_count }} post(s)">3</a>
     {% else %}
-    <div class="grid-item cloud opacity-20">3</div>
+    <div class="grid-item">3</div>
     {% endif %}
 
     <div class="grid-item">4</div>
