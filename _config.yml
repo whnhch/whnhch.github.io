@@ -150,6 +150,12 @@ collections:
     defaults:
       layout: post
     output: true
+  challenge_db:
+    output: false
+  challenge_nlp:
+    output: false
+  challenge_cloud:
+    output: false
   # projects:
     # output: true
 
