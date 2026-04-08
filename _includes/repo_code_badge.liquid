@@ -1,9 +1,9 @@
 {%- if include.href -%}
-<a href="{{ include.href }}" class="repo-code-badge"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% endif %}>
-  <span class="repo-code-angle">&lt;</span><span class="repo-code-slash">/</span><span class="repo-code-angle">&gt;</span>
+<a href="{{ include.href }}" class="repo-code-badge" style="display:inline-flex;align-items:center;gap:0.1rem;padding:1px 8px;border-radius:999px;background:linear-gradient(180deg,#fff6d6 0%,#ffe7a8 100%);border:1px solid rgba(214,160,0,0.28);box-shadow:0 1px 2px rgba(0,0,0,0.05);font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:0.82em;line-height:1;text-decoration:none;vertical-align:middle;"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% endif %}>
+  <span class="repo-code-angle" style="color:#c94a2a;font-weight:700;">&lt;</span><span class="repo-code-slash" style="color:#495057;">/</span><span class="repo-code-angle" style="color:#c94a2a;font-weight:700;">&gt;</span>
 </a>
 {%- else -%}
-<span class="repo-code-badge"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% else %} aria-hidden="true"{% endif %}>
-  <span class="repo-code-angle">&lt;</span><span class="repo-code-slash">/</span><span class="repo-code-angle">&gt;</span>
+<span class="repo-code-badge" style="display:inline-flex;align-items:center;gap:0.1rem;padding:1px 8px;border-radius:999px;background:linear-gradient(180deg,#fff6d6 0%,#ffe7a8 100%);border:1px solid rgba(214,160,0,0.28);box-shadow:0 1px 2px rgba(0,0,0,0.05);font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:0.82em;line-height:1;text-decoration:none;vertical-align:middle;"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% else %} aria-hidden="true"{% endif %}>
+  <span class="repo-code-angle" style="color:#c94a2a;font-weight:700;">&lt;</span><span class="repo-code-slash" style="color:#495057;">/</span><span class="repo-code-angle" style="color:#c94a2a;font-weight:700;">&gt;</span>
 </span>
 {%- endif -%}
