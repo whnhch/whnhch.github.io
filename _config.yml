@@ -151,11 +151,14 @@ collections:
       layout: post
     output: true
   challenge_db:
-    output: false
+    output: true
+    permalink: /challenge/db/:name/
   challenge_nlp:
-    output: false
+    output: true
+    permalink: /challenge/nlp/:name/
   challenge_cloud:
-    output: false
+    output: true
+    permalink: /challenge/cloud/:name/
   # projects:
     # output: true
 
