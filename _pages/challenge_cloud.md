@@ -5,7 +5,7 @@ title: Application Practice Logs
 nav: false
 ---
 
-## `</>` Application Practice & Deployment
+## {% include repo_code_badge.liquid %} Application Practice & Deployment
 
 <div class="post-list">
 {% for post in site.challenge_cloud %}
