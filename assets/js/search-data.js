@@ -23,7 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/challenge/";
           },
-        },{id: "news-our-paper-got-accepted-to-sigmod-2026",
+        },{id: "challenge_cloud-duckdb-basic",
+          title: 'Duckdb Basic',
+          description: "",
+          section: "Challenge_cloud",handler: () => {
+              window.location.href = "/challenge/cloud/2026-04-08-duckdb-basic/";
+            },},{id: "news-our-paper-got-accepted-to-sigmod-2026",
           title: 'Our paper got accepted to SIGMOD 2026!',
           description: "",
           section: "News",},{id: "news-attending-neurips-2025-workshop-in-san-diego",
