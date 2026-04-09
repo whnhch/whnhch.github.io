@@ -12,3 +12,7 @@ node_modules/
 vendor
 .idea
 .venv
+
+# Quarto-generated artifacts inside challenge collections
+_challenge_*/**/*.html
+_challenge_*/**/*_files/

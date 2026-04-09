@@ -7,8 +7,11 @@ nav: false
 
 ## {% include repo_code_badge.liquid %} Application Practice & Deployment
 
+{% assign challenge_cloud_collection = site.collections | where: "label", "challenge_cloud" | first %}
+{% assign challenge_cloud_posts = challenge_cloud_collection.docs | sort: "date" | reverse %}
+
 <div class="post-list">
-{% for post in site.challenge_cloud %}
+{% for post in challenge_cloud_posts %}
 <div class="post-item" style="padding: 15px; margin-bottom: 15px; border-left: 4px solid #8ce99a; background-color: rgba(211, 249, 216, 0.1); border-radius: 8px;">
   <h4 style="margin: 0 0 8px 0;">
     <a href="{{ post.url }}">{{ post.title }}</a>
@@ -23,7 +26,7 @@ nav: false
 </div>
 {% endfor %}
 
-{% if site.challenge_cloud.size == 0 %}
+{% if challenge_cloud_posts.size == 0 %}
 <p style="text-align: center; color: var(--global-text-color-light); padding: 30px;">
   No posts yet. 
 </p>
