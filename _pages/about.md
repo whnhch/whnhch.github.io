@@ -37,3 +37,5 @@ University](https://www.hanyang.ac.kr/) and my M.S. in Computer Science from
 Hanyang University under [Prof. Yong Suk Choi](http://ai.hanyang.ac.kr/member).
 During my studies, I worked in the [AI Lab](https://ai.hanyang.ac.kr/), where I
 focused on natural language processing.
+
+My name is pronounced as hwan-hee, but I just go by ha-ni.
