@@ -30,7 +30,7 @@ Utah](https://www.utah.edu/), working with [Prof. Anna
 Fariha](https://afariha.github.io/) in the [Utah
 DBLab](https://mod.cs.utah.edu/). My research focuses on building database
 systems that provide data management interpretability and explainability. I am
-particularly interested in data management systems and explainable AI.
+particularly interested in data summarization.
 
 I received my B.S. in Computer Science from [Hanyang
 University](https://www.hanyang.ac.kr/) and my M.S. in Computer Science from
