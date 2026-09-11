@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-[SAGE Demo paper]() got accepted to SIGMOD 2026 Demo! 
+[SAGE Demo paper](https://dl.acm.org/doi/pdf/10.1145/3788853.3801579) got accepted to SIGMOD 2026 Demo! 
