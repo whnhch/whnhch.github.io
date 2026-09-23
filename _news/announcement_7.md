@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[QUWARTS: Query Workload Aware Relational Table Synthesis from Unstructured Text](../paper/qwarts.pdf) got accepted to VLDB 2026, and won the Best Demo Award Honorable Mention!
+[QUWARTS: Query Workload Aware Relational Table Synthesis from Unstructured Text](../paper/qwarts.pdf) got accepted to VLDB 2026, and won the Best Demo Award Honorable Mention 🏆!
