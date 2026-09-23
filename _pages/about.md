@@ -39,3 +39,5 @@ During my studies, I worked in the [AI Lab](https://ai.hanyang.ac.kr/), where I
 focused on natural language processing.
 
 My name is pronounced as hwan-hee, but I just go by ha-nee.
+
+Find me on [LinkedIn](https://www.linkedin.com/in/whanhee-cho/).
