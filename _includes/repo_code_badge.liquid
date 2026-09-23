@@ -1,9 +1,5 @@
 {%- if include.href -%}
-<a href="{{ include.href }}" class="repo-code-badge" style="display:inline-flex;align-items:center;gap:0.1rem;padding:1px 8px;border-radius:999px;background:linear-gradient(180deg,#fff6d6 0%,#ffe7a8 100%);border:1px solid rgba(214,160,0,0.28);box-shadow:0 1px 2px rgba(0,0,0,0.05);font-size:0.82em;line-height:1;text-decoration:none;vertical-align:middle;color:#333;"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% endif %}>
-  <i class="fa-brands fa-github"></i>
-</a>
+<a href="{{ include.href }}" class="btn btn-sm z-depth-0" role="button"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% endif %}>Code</a>
 {%- else -%}
-<span class="repo-code-badge" style="display:inline-flex;align-items:center;gap:0.1rem;padding:1px 8px;border-radius:999px;background:linear-gradient(180deg,#fff6d6 0%,#ffe7a8 100%);border:1px solid rgba(214,160,0,0.28);box-shadow:0 1px 2px rgba(0,0,0,0.05);font-size:0.82em;line-height:1;text-decoration:none;vertical-align:middle;color:#333;"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% else %} aria-hidden="true"{% endif %}>
-  <i class="fa-brands fa-github"></i>
-</span>
+<span class="btn btn-sm z-depth-0"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% else %} aria-hidden="true"{% endif %}>Code</span>
 {%- endif -%}
