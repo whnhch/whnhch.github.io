@@ -1,5 +1,6 @@
+{%- capture code_icon -%}<img src="{{ '/assets/img/icons/code.svg' | relative_url }}" class="btn-icon" alt="Code" title="Code">{%- endcapture -%}
 {%- if include.href -%}
-<a href="{{ include.href }}" class="btn btn-sm z-depth-0" role="button"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% endif %}>Code</a>
+<a href="{{ include.href }}" class="btn btn-sm z-depth-0" role="button"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% endif %}>{{ code_icon }}</a>
 {%- else -%}
-<span class="btn btn-sm z-depth-0"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% else %} aria-hidden="true"{% endif %}>Code</span>
+<span class="btn btn-sm z-depth-0"{% if include.aria_label %} aria-label="{{ include.aria_label }}"{% else %} aria-hidden="true"{% endif %}>{{ code_icon }}</span>
 {%- endif -%}
