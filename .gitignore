@@ -16,3 +16,15 @@ vendor
 # Quarto-generated artifacts inside challenge collections
 _challenge_*/**/*.html
 _challenge_*/**/*_files/
+
+# Challenge section: kept local only, not published
+_pages/challenge.md
+_pages/challenge_*.md
+_challenge_*/
+_includes/query-planner/
+_includes/token-generation/
+assets/css/query-planner-demo.css
+assets/css/token-generation-demo.css
+assets/js/query-planner-demo.js
+assets/js/token-generation-demo.js
+_tools/
