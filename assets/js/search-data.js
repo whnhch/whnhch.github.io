@@ -37,6 +37,9 @@ ninja.data = [{
           section: "News",},{id: "news-clue-answering-how-to-questions-on-dashboards-using-metric-lineage-extractor-and-simulator-is-out",
           title: 'CLUE: Answering How-To Questions on Dashboards using Metric Lineage Extractor and Simulator is...',
           description: "",
+          section: "News",},{id: "news-example-driven-intent-synthesis-for-constrained-data-bundle-retrieval-focused-text-snippet-extraction-and-beyond-got-accepted-to-vldb-2027",
+          title: 'Example-Driven Intent Synthesis for Constrained Data Bundle Retrieval: Focused Text Snippet Extraction and...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
